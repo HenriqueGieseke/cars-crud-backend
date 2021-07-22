@@ -30,7 +30,7 @@ npm start
 ```
 http://localhost:5000/addCar
 ```
-O body da request precisa ser preenchido com todos os campos do documento
+O body da request precisa ser preenchido com todos os campos do documento.
 
 <strong>Exemplo de body:</strong>
 ```
@@ -71,7 +71,7 @@ O body da request precisa ser preenchido com todos os campos do documento
 ```
 http://localhost:5000/getCar/searchInput
 ```
-O searchInput pode ser preenchido com os valores da brand, model, version ou gearshift do carro
+O searchInput pode ser preenchido com os valores da brand, model, version ou gearshift do carro.
 
 #
 <h5>Buscar por preço</h5>
@@ -158,7 +158,7 @@ O searchInput pode ser preenchido com os valores da brand, model ou version. O b
 `Method DELETE`
 
 ```
-http://localhost:5000/deleteCar/:searchInput
+http://localhost:5000/deleteCar/searchInput
 ```
 O searchInput pode ser preenchido com os valores da brand, model ou version. Retorna uma mensagem com a marca do carro que foi deletado.
 
