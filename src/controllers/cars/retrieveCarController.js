@@ -19,7 +19,7 @@ const retrieveCarController = async (req, res) => {
     if (filteredCars.length) {
       await res.send(filteredCars);
     } else {
-      res.end('Nenhum resultado encontrado.');
+      res.send('Nenhum resultado encontrado.');
     }
   } catch (error) {
     res.status(500).send(error);
